@@ -1,0 +1,31 @@
+replicaCount: 1
+image:
+  repository: ap-singapore-1.ocir.io/axlrvzrcs8ao/imdg-server
+  tag: ""
+  pullPolicy: IfNotPresent
+imagePullSecrets: []
+serviceAccountName: imdg-server
+service:
+  name: imdg-server-service
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
+configMapName: imdg-server-cm
+configMap: {}
+resources: {}
+probes:
+  liveness:
+    path: /actuator/health/liveness
+    port: 8080
+    failureThreshold: 5
+    periodSeconds: 15
+    initialDelaySeconds: 10
+  readiness:
+    path: /actuator/health/readiness
+    port: 8080
+    failureThreshold: 5
+    periodSeconds: 15
+    initialDelaySeconds: 10
+rbac:
+  roleName: config-reader
+  roleBindingName: config-reader-rb

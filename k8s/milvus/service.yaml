@@ -1,0 +1,65 @@
+---
+# Source: milvus/templates/milvus-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: milvus-standalone
+  labels:
+    app.kubernetes.io/name: milvus
+    app.kubernetes.io/component: standalone
+spec:
+  type: ClusterIP
+  ports:
+    - name: grpc
+      port: 19530
+      targetPort: 19530
+      protocol: TCP
+    - name: http
+      port: 9091
+      targetPort: 9091
+      protocol: TCP
+  selector:
+    app.kubernetes.io/name: milvus
+    app.kubernetes.io/component: standalone
+---
+# Source: milvus/templates/minio-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: milvus-minio
+  labels:
+    app.kubernetes.io/name: milvus
+    app.kubernetes.io/component: minio
+spec:
+  type: ClusterIP
+  ports:
+    - name: api
+      port: 9000
+      targetPort: 9000
+      protocol: TCP
+    - name: console
+      port: 9001
+      targetPort: 9001
+      protocol: TCP
+  selector:
+    app.kubernetes.io/name: milvus
+    app.kubernetes.io/component: minio
+---
+# Source: milvus/templates/etcd-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: milvus-etcd
+  labels:
+    app.kubernetes.io/name: milvus
+    app.kubernetes.io/component: etcd
+spec:
+  type: ClusterIP
+  ports:
+    - port: 2379
+      targetPort: 2379
+      protocol: TCP
+      name: client
+  selector:
+    app.kubernetes.io/name: milvus
+    app.kubernetes.io/component: etcd

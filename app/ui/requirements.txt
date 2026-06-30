@@ -1,0 +1,7 @@
+httpx==0.28.1
+langchain-core==1.4.8
+langchain-nvidia-ai-endpoints==1.4.1
+langchain-ollama==1.1.0
+pandas==3.0.3
+pymilvus==3.0.0
+streamlit==1.58.0

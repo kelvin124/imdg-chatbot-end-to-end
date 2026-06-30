@@ -1,0 +1,445 @@
+{
+    "index": 1,
+    "lcg": 129.8,
+    "minShear": -4090.0,
+    "maxShear": 3510.0,
+    "maxBending": 30000.0,
+    "constWeight": 980.0,
+    "constWeighVcg": 15,
+    "rows": [
+        {
+            "index": 0,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 1,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 2,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 3,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 4,
+            "tcg": -8.505,
+            "hold": null,
+            "deck": {
+                "identifier": 1,
+                "maxHeight": 13.05,
+                "maxWeight20": 67.5,
+                "maxWeight40": 100.8,
+                "vcg": 26.1,
+                "cells": [
+                    {
+                        "tier": 14,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 13,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 12,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 11,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 10,
+                        "isReefer": false
+                    }
+                ]
+            }
+        },
+        {
+            "index": 5,
+            "tcg": -6.075,
+            "hold": null,
+            "deck": {
+                "identifier": 1,
+                "maxHeight": 13.05,
+                "maxWeight20": 67.5,
+                "maxWeight40": 100.8,
+                "vcg": 26.1,
+                "cells": [
+                    {
+                        "tier": 14,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 13,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 12,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 11,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 10,
+                        "isReefer": false
+                    }
+                ]
+            }
+        },
+        {
+            "index": 6,
+            "tcg": -3.645,
+            "hold": {
+                "identifier": 4,
+                "maxHeight": 8.44,
+                "maxWeight20": 72.0,
+                "maxWeight40": 86.4,
+                "vcg": 15.66,
+                "cells": [
+                    {
+                        "tier": 8,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 7,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 6,
+                        "isReefer": false
+                    }
+                ]
+            },
+            "deck": {
+                "identifier": 3,
+                "maxHeight": 13.05,
+                "maxWeight20": 67.5,
+                "maxWeight40": 100.8,
+                "vcg": 26.1,
+                "cells": [
+                    {
+                        "tier": 14,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 13,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 12,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 11,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 10,
+                        "isReefer": false
+                    }
+                ]
+            }
+        },
+        {
+            "index": 7,
+            "tcg": -1.215,
+            "hold": {
+                "identifier": 4,
+                "maxHeight": 13.66,
+                "maxWeight20": 120.0,
+                "maxWeight40": 144.0,
+                "vcg": 10.44,
+                "cells": [
+                    {
+                        "tier": 8,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 7,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 6,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 5,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 4,
+                        "isReefer": false
+                    }
+                ]
+            },
+            "deck": {
+                "identifier": 3,
+                "maxHeight": 13.05,
+                "maxWeight20": 67.5,
+                "maxWeight40": 100.8,
+                "vcg": 26.1,
+                "cells": [
+                    {
+                        "tier": 14,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 13,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 12,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 11,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 10,
+                        "isReefer": false
+                    }
+                ]
+            }
+        },
+        {
+            "index": 8,
+            "tcg": 1.215,
+            "hold": {
+                "identifier": 4,
+                "maxHeight": 13.66,
+                "maxWeight20": 120.0,
+                "maxWeight40": 144.0,
+                "vcg": 10.44,
+                "cells": [
+                    {
+                        "tier": 8,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 7,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 6,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 5,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 4,
+                        "isReefer": false
+                    }
+                ]
+            },
+            "deck": {
+                "identifier": 3,
+                "maxHeight": 13.05,
+                "maxWeight20": 67.5,
+                "maxWeight40": 100.8,
+                "vcg": 26.1,
+                "cells": [
+                    {
+                        "tier": 14,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 13,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 12,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 11,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 10,
+                        "isReefer": false
+                    }
+                ]
+            }
+        },
+        {
+            "index": 9,
+            "tcg": 3.645,
+            "hold": {
+                "identifier": 4,
+                "maxHeight": 8.44,
+                "maxWeight20": 72.0,
+                "maxWeight40": 86.4,
+                "vcg": 15.66,
+                "cells": [
+                    {
+                        "tier": 8,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 7,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 6,
+                        "isReefer": false
+                    }
+                ]
+            },
+            "deck": {
+                "identifier": 3,
+                "maxHeight": 13.05,
+                "maxWeight20": 67.5,
+                "maxWeight40": 100.8,
+                "vcg": 26.1,
+                "cells": [
+                    {
+                        "tier": 14,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 13,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 12,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 11,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 10,
+                        "isReefer": false
+                    }
+                ]
+            }
+        },
+        {
+            "index": 10,
+            "tcg": 6.075,
+            "hold": null,
+            "deck": {
+                "identifier": 5,
+                "maxHeight": 13.05,
+                "maxWeight20": 67.5,
+                "maxWeight40": 100.8,
+                "vcg": 26.1,
+                "cells": [
+                    {
+                        "tier": 14,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 13,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 12,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 11,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 10,
+                        "isReefer": false
+                    }
+                ]
+            }
+        },
+        {
+            "index": 11,
+            "tcg": 8.505,
+            "hold": null,
+            "deck": {
+                "identifier": 5,
+                "maxHeight": 13.05,
+                "maxWeight20": 67.5,
+                "maxWeight40": 100.8,
+                "vcg": 26.1,
+                "cells": [
+                    {
+                        "tier": 14,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 13,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 12,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 11,
+                        "isReefer": false
+                    },
+                    {
+                        "tier": 10,
+                        "isReefer": false
+                    }
+                ]
+            }
+        },
+        {
+            "index": 12,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 13,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 14,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 15,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        }
+    ],
+    "buoyancyPoints": [
+        63.89,
+        121.3,
+        189.88,
+        270.03,
+        359.74,
+        456.87,
+        560.65,
+        671.45,
+        789.89,
+        917.6,
+        1054.63,
+        1205.24,
+        1369.44,
+        1549.91,
+        1748.3
+    ],
+    "vesselName": "vessel-s"
+}

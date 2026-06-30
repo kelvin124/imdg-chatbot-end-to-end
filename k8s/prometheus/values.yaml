@@ -1,0 +1,62 @@
+rbac:
+  create: true
+
+imagePullSecrets: []
+
+serviceAccounts:
+  server:
+    create: true
+
+replicaCount: 2
+
+alertmanager:
+
+  enabled: true
+
+  persistence:
+    enabled: true
+    annotations: {}
+    labels: {}
+
+    storageClass: "prometheus-alertmanager"
+    accessModes:
+      - ReadWriteOnce
+    size: 2Gi
+    emptyDir: {}
+
+server:
+
+  image:
+    repository: quay.io/prometheus/prometheus
+    tag: "v3.12.0"
+    digest: ""
+    distroless: false
+    pullPolicy: IfNotPresent
+
+  statefulSet:
+    enabled: true
+    pvcDeleteOnStsDelete: false
+    pvcDeleteOnStsScale: false
+
+  resources:
+    limits:
+      cpu: 250m
+      memory: 1Gi
+    requests:
+      cpu: 1m
+      memory: 512Mi
+
+  service:
+    enabled: true
+
+  retention: "15d"
+  retentionSize: "4GB"
+
+  persistentVolume:
+    enabled: true
+    statefulSetNameOverride: ""
+    storageClass: ""
+    accessModes:
+      - ReadWriteOnce
+    existingClaim: "prometheus-server-pvc"
+    size: 5Gi

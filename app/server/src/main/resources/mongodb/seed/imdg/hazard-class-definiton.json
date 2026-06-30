@@ -1,0 +1,38 @@
+[
+  {
+    "hazardClass": "1",
+    "substance": "Explosives"
+  },
+  {
+    "hazardClass": "2",
+    "substance": "Gases"
+  },
+  {
+    "hazardClass": "3",
+    "substance": "Flammable liquids"
+  },
+  {
+    "hazardClass": "4",
+    "substance": "Flammable solids; substances liable to spontaneous combustion; substances which, in contact with water, emit flammable gases"
+  },
+  {
+    "hazardClass": "5",
+    "substance": "Oxidizing substances and organic peroxides"
+  },
+  {
+    "hazardClass": "6",
+    "substance": "Toxic and infectious substances"
+  },
+  {
+    "hazardClass": "7",
+    "substance": "Radioactive material"
+  },
+  {
+    "hazardClass": "8",
+    "substance": "Corrosive substances"
+  },
+  {
+    "hazardClass": "9",
+    "substance": "Miscellaneous dangerous substances and articles"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "code": "1",
+    "description": "away from"
+  },
+  {
+    "code": "2",
+    "description": "separated from"
+  },
+  {
+    "code": "3",
+    "description": "separated by a complete compartment or hold from"
+  },
+  {
+    "code": "4",
+    "description": "separated longitudinally by an intervening complete compartment or hold from"
+  },
+  {
+    "code": "X",
+    "description": "Refer to Column 16b (DGL) for SG provisions."
+  },
+  {
+    "code": "*",
+    "description": "Refer to section 7.2.7.1 (explosives compatibility table)"
+  }
+]

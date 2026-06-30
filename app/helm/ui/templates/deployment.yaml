@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: imdg-chatbot-ui
+  labels:
+    app: imdg-chatbot-ui
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: imdg-chatbot-ui
+  template:
+    metadata:
+      labels:
+        app: imdg-chatbot-ui
+    spec:
+      serviceAccountName: {{ .Values.serviceAccountName }}
+      imagePullSecrets:
+{{- range .Values.imagePullSecrets }}
+      - name: {{ .name }}
+{{- end }}
+      containers:
+      - name: imdg-chatbot-ui
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        envFrom:
+        - secretRef:
+            name: {{ .Values.secretRefName }}
+        - configMapRef:
+            name: {{ .Values.configMapName }}
+        ports:
+        - containerPort: {{ .Values.service.targetPort }}
+        livenessProbe:
+          httpGet:
+            path: {{ .Values.probes.liveness.path }}
+            port: {{ .Values.probes.liveness.port }}
+            scheme: {{ .Values.probes.liveness.scheme }}
+          timeoutSeconds: {{ .Values.probes.liveness.timeoutSeconds }}
+        readinessProbe:
+          httpGet:
+            path: {{ .Values.probes.readiness.path }}
+            port: {{ .Values.probes.readiness.port }}
+            scheme: {{ .Values.probes.readiness.scheme }}
+          timeoutSeconds: {{ .Values.probes.readiness.timeoutSeconds }}
+        resources:
+          requests:
+            memory: "{{ .Values.resources.requests.memory }}"
+            cpu: "{{ .Values.resources.requests.cpu }}"
+          limits:
+            memory: "{{ .Values.resources.limits.memory }}"
+            cpu: "{{ .Values.resources.limits.cpu }}"

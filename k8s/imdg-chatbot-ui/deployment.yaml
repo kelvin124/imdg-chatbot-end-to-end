@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: imdg-chatbot
+  labels:
+    app: imdg-chatbot
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: imdg-chatbot-ui
+  template:
+    metadata:
+      labels:
+        app: imdg-chatbot-ui
+    spec:
+      serviceAccountName: imdg-chatbot-ui
+      imagePullSecrets:
+      - name: ocir-registry-secret
+      containers:
+      - name: imdg-chatbot-ui
+        image: ap-singapore-1.ocir.io/axlrvzrcs8ao/imdg-chatbot-ui:1.0.0
+        imagePullPolicy: IfNotPresent
+        envFrom:
+        - secretRef:
+            name: imdg-chatbot-ui-secret
+        - configMapRef:
+            name: imdg-chatbot-ui-cm         
+        ports:
+        - containerPort: 8501
+        livenessProbe:
+          httpGet:
+            path: /_stcore/health
+            port: 8501
+            scheme: HTTP
+          timeoutSeconds: 1
+        readinessProbe:
+          httpGet:
+            path: /_stcore/health
+            port: 8501
+            scheme: HTTP
+          timeoutSeconds: 1
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1"

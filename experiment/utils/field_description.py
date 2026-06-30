@@ -1,0 +1,5 @@
+CONTAINER_ID_DESC = "container_id, four letters followed by seven numbers."
+STOWAGE_PLAN_ID_DESC = "stowage_plan_id, it is an uuid. EXAMPLE: 184ee948-4534-4a08-b394-79d5508b48bb"
+BAY_INDEX_DESC = "bay_index, bay identifier for a particular bay, it is an integer, EXAMPLE: 1"
+ROW_INDEX_DESC = "row_index, row identifier, it is an integer, EXAMPLE: 1"
+TIER_INDEX_DESC = "tier_index, tier identifier, it is an integer, EXAMPLE: 1"

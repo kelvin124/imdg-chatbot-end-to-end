@@ -1,0 +1,92 @@
+[
+  {
+    "code": "SGG1",
+    "groupNumber": 1,
+    "description": "acids"
+  },
+  {
+    "code": "SGG2",
+    "groupNumber": 2,
+    "description": "ammonium compounds"
+  },
+  {
+    "code": "SGG3",
+    "groupNumber": 3,
+    "description": "bromates"
+  },
+  {
+    "code": "SGG4",
+    "groupNumber": 4,
+    "description": "chlorates"
+  },
+  {
+    "code": "SGG5",
+    "groupNumber": 5,
+    "description": "chlorites"
+  },
+  {
+    "code": "SGG6",
+    "groupNumber": 6,
+    "description": "cyanides"
+  },
+  {
+    "code": "SGG7",
+    "groupNumber": 7,
+    "description": "heavy metals and their salts (including their organometallic compounds)"
+  },
+  {
+    "code": "SGG8",
+    "groupNumber": 8,
+    "description": "hypochlorites"
+  },
+  {
+    "code": "SGG9",
+    "groupNumber": 9,
+    "description": "lead and its compounds"
+  },
+  {
+    "code": "SGG10",
+    "groupNumber": 10,
+    "description": "liquid halogenated hydrocarbons"
+  },
+  {
+    "code": "SGG11",
+    "groupNumber": 11,
+    "description": "mercury and mercury compounds"
+  },
+  {
+    "code": "SGG12",
+    "groupNumber": 12,
+    "description": "nitrites and their mixtures"
+  },
+  {
+    "code": "SGG13",
+    "groupNumber": 13,
+    "description": "perchlorates"
+  },
+  {
+    "code": "SGG14",
+    "groupNumber": 14,
+    "description": "permanganates"
+  },
+  {
+    "code": "SGG15",
+    "groupNumber": 15,
+    "description": "powdered metals"
+  },
+  {
+    "code": "SGG16",
+    "groupNumber": 16,
+    "description": "peroxides"
+  },
+  {
+    "code": "SGG17",
+    "groupNumber": 17,
+    "description": "azides"
+  },
+  {
+    "code": "SGG18",
+    "groupNumber": 18,
+    "description": "alkalis"
+  }
+]

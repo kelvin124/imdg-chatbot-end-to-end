@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: imdg-server
+  config:
+    import: "optional:kubernetes:imdg-server-cm"
+  mongodb:
+    uri: mongodb+srv://${spring.mongodb.username}:${spring.mongodb.password}@${spring.mongodb.host}/${spring.mongodb.database}?retryWrites=true&w=majority
+    host: ${SPRING_MONGODB_HOST}
+    port: 27017
+    database: stowage_plan
+    username: ${SPRING_MONGODB_USERNAME}
+    password: ${SPRING_MONGODB_PASSWORD}
+  cloud:
+    kubernetes:
+      config:
+        name: imdg-server-cm
+        enabled: true
+      secrets:
+        name: imdg-server-secret
+        enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "metrics, prometheus, health"
+  health:
+    livenessState:
+      enabled: true
+    readinessState:
+      enabled: true
+    mongo:
+      enabled: true
+
+app:
+  vessel:
+    stability:
+      lcgScalingFactor: 1.1
+      tank:
+        fullPercentage: 0.5
+      kg:
+        defaultTierHeight: 2.6
+        max: 20
+      cg:
+        min: 0.4
+        max: 0.6

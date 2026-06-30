@@ -1,0 +1,158 @@
+{
+    "index": 0,
+    "lcg": 172.6,
+    "minShear": -6000.0,
+    "maxShear": 5718.0,
+    "maxBending": 54000.0,
+    "constWeight": 1431.0,
+    "constWeighVcg": 15,
+    "rows": [
+        {
+            "index": 0,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 1,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 2,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 3,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 4,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 5,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 6,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 7,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 8,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 9,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 10,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 11,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 12,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 13,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 14,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 15,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        },
+        {
+            "index": 16,
+            "tcg": 0.0,
+            "hold": null,
+            "deck": null
+        }
+    ],
+    "buoyancyPoints": [
+        248.18,
+        307.84,
+        373.72,
+        442.69,
+        516.57,
+        592.65,
+        668.7,
+        749.84,
+        828.93,
+        908.19,
+        981.6,
+        1052.02,
+        1117.47,
+        1178.1,
+        1231.46,
+        1276.81,
+        1311.73,
+        1338.46,
+        1365.25,
+        1393.61,
+        1422.06,
+        1455.19,
+        1489.1,
+        1525.96,
+        1567.36,
+        1612.59,
+        1662.38,
+        1718.06,
+        1778.28,
+        1846.19,
+        1921.58,
+        2003.74,
+        2095.47,
+        2194.79,
+        2303.61,
+        2423.96,
+        2550.64,
+        2688.57,
+        2838.9,
+        3001.61,
+        3174.52,
+        3211.57
+    ],
+    "vesselName": "vessel-m"
+}

@@ -1,0 +1,28 @@
+name: ollama
+
+services:
+  # docker exec -it ollama ollama run llama3
+  # ollama run llama3.2
+  # ollama run 
+  ollama:
+    image: ollama/ollama:0.21.3-rc0-rocm
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+volumes:
+  ollama:
+    driver: local
+
+networks:
+  dev:
+    name: dev
+    driver: bridge

@@ -1,0 +1,310 @@
+[
+  {
+    "code": "SG1",
+    "description": "For packages carrying a subsidiary hazard label of class 1, segregation as for class 1, division 1.3. However, in relation to goods of class 1, segregation as for the primary hazard."
+  },
+  {
+    "code": "SG2",
+    "description": "Segregation as for class 1.2G."
+  },
+  {
+    "code": "SG3",
+    "description": "Segregation as for class 1.3G."
+  },
+  {
+    "code": "SG4",
+    "description": "Segregation as for class 2.1."
+  },
+  {
+    "code": "SG5",
+    "description": "Segregation as for class 3."
+  },
+  {
+    "code": "SG6",
+    "description": "Segregation as for class 5.1."
+  },
+  {
+    "code": "SG7",
+    "description": "Stow \"away from\" class 3."
+  },
+  {
+    "code": "SG8",
+    "description": "Stow \"away from\" class 4.1."
+  },
+  {
+    "code": "SG9",
+    "description": "Stow \"away from\" class 4.3."
+  },
+  {
+    "code": "SG10",
+    "description": "Stow \"away from\" class 5.1."
+  },
+  {
+    "code": "SG11",
+    "description": "Stow \"away from\" class 6.2."
+  },
+  {
+    "code": "SG12",
+    "description": "Stow \"away from\" class 7."
+  },
+  {
+    "code": "SG13",
+    "description": "Stow \"away from\" class 8."
+  },
+  {
+    "code": "SG14",
+    "description": "Stow \"separated from\" class 1 except for division 1.4S."
+  },
+  {
+    "code": "SG15",
+    "description": "Stow \"separated from\" class 3."
+  },
+  {
+    "code": "SG16",
+    "description": "Stow \"separated from\" class 4.1."
+  },
+  {
+    "code": "SG17",
+    "description": "Stow \"separated from\" class 5.1."
+  },
+  {
+    "code": "SG18",
+    "description": "Stow \"separated from\" class 6.2."
+  },
+  {
+    "code": "SG19",
+    "description": "Stow \"separated from\" class 7."
+  },
+  {
+    "code": "SG20",
+    "description": "Stow \"away from\" SGG1 - acids."
+  },
+  {
+    "code": "SG21",
+    "description": "Stow \"away from\" SGG18 - alkalis."
+  },
+  {
+    "code": "SG22",
+    "description": "Stow \"away from\" ammonium salts."
+  },
+  {
+    "code": "SG23",
+    "description": "Stow \"away from\" animal or vegetable oils."
+  },
+  {
+    "code": "SG24",
+    "description": "Stow \"away from\" SGG17 - azides."
+  },
+  {
+    "code": "SG25",
+    "description": "Stow \"separated from\" goods of classes 2.1 and 3."
+  },
+  {
+    "code": "SG26",
+    "description": "In addition: from goods of classes 2.1 and 3 when stowed on deck of a containership a minimum distance of two container spaces athwartship shall be maintained, when stowed on ro-ro ships a distance of 6 m athwartship shall be maintained."
+  },
+  {
+    "code": "SG27",
+    "description": "Stow \"separated from\" explosives containing chlorates or perchlorates."
+  },
+  {
+    "code": "SG28",
+    "description": "Stow \"separated from\" SGG2 - ammonium compounds and explosives containing ammonium compounds or salts."
+  },
+  {
+    "code": "SG29",
+    "description": "Segregation from foodstuffs as in 7.3.4.2.2, 7.6.3.1.2 or 7.7.3.7."
+  },
+  {
+    "code": "SG30",
+    "description": "Stow \"away from\" SGG7 - heavy metals and their salts."
+  },
+  {
+    "code": "SG31",
+    "description": "Stow \"away from\" SGG9 - lead and its compounds."
+  },
+  {
+    "code": "SG32",
+    "description": "Stow \"away from\" SGG10 - liquid halogenated hydrocarbons."
+  },
+  {
+    "code": "SG33",
+    "description": "Stow \"away from\" SGG15 - powdered metals."
+  },
+  {
+    "code": "SG34",
+    "description": "When containing ammonium compounds, \"separated from\" SGG4 - chlorates or SGG13 - perchlorates and explosives containing chlorates or perchlorates."
+  },
+  {
+    "code": "SG35",
+    "description": "Stow \"separated from\" SGG1 - acids."
+  },
+  {
+    "code": "SG36",
+    "description": "Stow \"separated from\" SGG18 - alkalis."
+  },
+  {
+    "code": "SG37",
+    "description": "Stow \"separated from\" ammonia."
+  },
+  {
+    "code": "SG38",
+    "description": "Stow \"separated from\" SGG2 - ammonium compounds."
+  },
+  {
+    "code": "SG39",
+    "description": "Stow \"separated from\" SGG2 - ammonium compounds other than AMMONIUM PERSULPHATE (UN 1444)."
+  },
+  {
+    "code": "SG40",
+    "description": "Stow \"separated from\" SGG2 - ammonium compounds other than mixtures of ammonium persulphates and/or potassium persulphates and/or sodium persulphates."
+  },
+  {
+    "code": "SG41",
+    "description": "Stow \"separated from\" animal or vegetable oil."
+  },
+  {
+    "code": "SG42",
+    "description": "Stow \"separated from\" SGG3 - bromates."
+  },
+  {
+    "code": "SG43",
+    "description": "Stow \"separated from\" bromine."
+  },
+  {
+    "code": "SG44",
+    "description": "Stow \"separated from\" CARBON TETRACHLORIDE (UN 1846)."
+  },
+  {
+    "code": "SG45",
+    "description": "Stow \"separated from\" SGG4 - chlorates."
+  },
+  {
+    "code": "SG46",
+    "description": "Stow \"separated from\" chlorine."
+  },
+  {
+    "code": "SG47",
+    "description": "Stow \"separated from\" SGG5 - chlorites."
+  },
+  {
+    "code": "SG48",
+    "description": "Stow \"separated from\" combustible material (particularly liquids)."
+  },
+  {
+    "code": "SG49",
+    "description": "Stow \"separated from\" SGG6 - cyanides."
+  },
+  {
+    "code": "SG50",
+    "description": "Segregation from foodstuffs as in 7.3.4.2.1, 7.6.3.1.2 or 7.7.3.6."
+  },
+  {
+    "code": "SG51",
+    "description": "Stow \"separated from\" SGG8 - hypochlorites."
+  },
+  {
+    "code": "SG52",
+    "description": "Stow \"separated from\" iron oxide."
+  },
+  {
+    "code": "SG53",
+    "description": "Shall not be stowed together with combustible material in the same cargo transport unit."
+  },
+  {
+    "code": "SG54",
+    "description": "Stow \"separated from\" SGG11 - mercury and mercury compounds."
+  },
+  {
+    "code": "SG55",
+    "description": "Stow \"separated from\" mercury salts."
+  },
+  {
+    "code": "SG56",
+    "description": "Stow \"separated from\" SGG12 - nitrites."
+  },
+  {
+    "code": "SG57",
+    "description": "Stow \"separated from\" odour-absorbing cargoes."
+  },
+  {
+    "code": "SG58",
+    "description": "Stow \"separated from\" SGG13 - perchlorates."
+  },
+  {
+    "code": "SG59",
+    "description": "Stow \"separated from\" SGG14 - permanganates."
+  },
+  {
+    "code": "SG60",
+    "description": "Stow \"separated from\" SGG16 - peroxides."
+  },
+  {
+    "code": "SG61",
+    "description": "Stow \"separated from\" SGG15 - powdered metals."
+  },
+  {
+    "code": "SG62",
+    "description": "Stow \"separated from\" sulphur."
+  },
+  {
+    "code": "SG63",
+    "description": "Stow \"separated longitudinally by an intervening complete compartment or hold from\" class 1."
+  },
+  {
+    "code": "SG64",
+    "description": "[Reserved]"
+  },
+  {
+    "code": "SG65",
+    "description": "Stow \"separated by a complete compartment or hold from\" class 1 except for division 1.4."
+  },
+  {
+    "code": "SG66",
+    "description": "[Reserved]"
+  },
+  {
+    "code": "SG67",
+    "description": "Stow \"separated from\" division 1.4 and \"separated longitudinally by an intervening complete compartment or hold from\" divisions 1.1, 1.2, 1.3, 1.5 and 1.6 except from explosives of compatibility group J."
+  },
+  {
+    "code": "SG68",
+    "description": "If flashpoint 60°℃ c.c. or below, segregation as for class 3 but \"away from\" class 4.1."
+  },
+  {
+    "code": "SG69",
+    "description": "For AEROSOLS with a maximum capacity of 1 L: segregation as for class 9. Stow \"separated from\" class 1 except for division 1.4. For AEROSOLS with a capacity above 1 L: segregation as for the appropriate subdivision of class 2. For WASTE AEROSOLS: segregation as for the appropriate subdivision of class 2."
+  },
+  {
+    "code": "SG70",
+    "description": "For arsenic sulphides, \"separated from\" SGG1 - acids."
+  },
+  {
+    "code": "SG71",
+    "description": "Within the appliance, to the extent that the dangerous goods are integral parts of the complete life-saving appliance, there is no need to apply the provisions on segregation of substances in chapter 7.2."
+  },
+  {
+    "code": "SG72",
+    "description": "See tables in 7.2.6.3."
+  },
+  {
+    "code": "SG73",
+    "description": "[Reserved]"
+  },
+  {
+    "code": "SG74",
+    "description": "Segregation as for 1.4G."
+  },
+  {
+    "code": "SG76",
+    "description": "Segregation as for class 7."
+  },
+  {
+    "code": "SG77",
+    "description": "Segregation as for class 8. However, in relation to class 7, no segregation needs to be applied."
+  },
+  {
+    "code": "SG78",
+    "description": "Stow \"separated longitudinally by an intervening complete compartment or hold from\" division 1.1, 1.2, and 1.5."
+  }
+]

@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: imdg-server
+  labels:
+    app: imdg-server
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: imdg-server
+  template:
+    metadata:
+      labels:
+        app: imdg-server
+    spec:
+      serviceAccountName: imdg-server
+      imagePullSecrets:
+      - name: ocir-registry-secret      
+      containers:
+      - name: imdg-server
+        image: ap-singapore-1.ocir.io/axlrvzrcs8ao/imdg-server:1.0.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
+        livenessProbe:
+          httpGet:
+            path: "/actuator/health/liveness"
+            port: 8080
+          failureThreshold: 5
+          periodSeconds: 15
+          initialDelaySeconds: 10
+        readinessProbe:
+          httpGet:
+            path: "/actuator/health/readiness"
+            port: 8080
+          failureThreshold: 5
+          periodSeconds: 15
+          initialDelaySeconds: 10
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1"

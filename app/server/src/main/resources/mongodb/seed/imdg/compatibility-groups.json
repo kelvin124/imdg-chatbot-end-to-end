@@ -1,0 +1,118 @@
+[
+  {
+    "code": "A",
+    "allowedWith": [
+      "A"
+    ]
+  },
+  {
+    "code": "B",
+    "allowedWith": [
+      "B",
+      "S"
+    ]
+  },
+  {
+    "code": "C",
+    "allowedWith": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "N",
+      "S"
+    ]
+  },
+  {
+    "code": "D",
+    "allowedWith": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "N",
+      "S"
+    ]
+  },
+  {
+    "code": "E",
+    "allowedWith": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "N",
+      "S"
+    ]
+  },
+  {
+    "code": "F",
+    "allowedWith": [
+      "F",
+      "S"
+    ]
+  },
+  {
+    "code": "G",
+    "allowedWith": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "S"
+    ]
+  },
+  {
+    "code": "H",
+    "allowedWith": [
+      "H",
+      "S"
+    ]
+  },
+  {
+    "code": "J",
+    "allowedWith": [
+      "J",
+      "S"
+    ]
+  },
+  {
+    "code": "K",
+    "allowedWith": [
+      "K",
+      "S"
+    ]
+  },
+  {
+    "code": "L",
+    "allowedWith": [
+      "L"
+    ]
+  },
+  {
+    "code": "N",
+    "allowedWith": [
+      "C",
+      "D",
+      "E",
+      "N",
+      "S"
+    ]
+  },
+  {
+    "code": "S",
+    "allowedWith": [
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "J",
+      "K",
+      "N",
+      "S"
+    ]
+  }
+]

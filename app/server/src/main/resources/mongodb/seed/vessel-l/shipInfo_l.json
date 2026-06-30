@@ -1,0 +1,642 @@
+{
+    "shipInfo": {
+        "bays": 24,
+        "rows": 22,
+        "tiers": 21,
+        "tcgTolerance": 0.1
+    },
+    "hydroPoints": [
+        {
+            "displacement": 54037,
+            "minLcg": -8.37,
+            "maxLcg": -8.37,
+            "metacenter": 45.7
+        },
+        {
+            "displacement": 67172,
+            "minLcg": -8.37,
+            "maxLcg": -8.02,
+            "metacenter": 40.72
+        },
+        {
+            "displacement": 80797,
+            "minLcg": -8.02,
+            "maxLcg": -7.78,
+            "metacenter": 36.84
+        },
+        {
+            "displacement": 94889,
+            "minLcg": -7.78,
+            "maxLcg": -7.63,
+            "metacenter": 34.14
+        },
+        {
+            "displacement": 109446,
+            "minLcg": -7.63,
+            "maxLcg": -7.62,
+            "metacenter": 32.21
+        },
+        {
+            "displacement": 124451,
+            "minLcg": -7.73,
+            "maxLcg": -7.62,
+            "metacenter": 30.67
+        },
+        {
+            "displacement": 139900,
+            "minLcg": -7.98,
+            "maxLcg": -7.73,
+            "metacenter": 29.5
+        },
+        {
+            "displacement": 155794,
+            "minLcg": -8.37,
+            "maxLcg": -7.98,
+            "metacenter": 28.61
+        },
+        {
+            "displacement": 172144,
+            "minLcg": -8.9,
+            "maxLcg": -8.37,
+            "metacenter": 27.94
+        },
+        {
+            "displacement": 188981,
+            "minLcg": -9.58,
+            "maxLcg": -8.9,
+            "metacenter": 27.45
+        },
+        {
+            "displacement": 206337,
+            "minLcg": -10.41,
+            "maxLcg": -9.58,
+            "metacenter": 27.11
+        },
+        {
+            "displacement": 224263,
+            "minLcg": -11.32,
+            "maxLcg": -10.41,
+            "metacenter": 26.9
+        },
+        {
+            "displacement": 242694,
+            "minLcg": -12.21,
+            "maxLcg": -11.32,
+            "metacenter": 26.77
+        },
+        {
+            "displacement": 261543,
+            "minLcg": -13.01,
+            "maxLcg": -12.21,
+            "metacenter": 26.68
+        },
+        {
+            "displacement": 280761,
+            "minLcg": -13.7,
+            "maxLcg": -13.01,
+            "metacenter": 26.64
+        },
+        {
+            "displacement": 300312,
+            "minLcg": -14.26,
+            "maxLcg": -13.7,
+            "metacenter": 26.63
+        },
+        {
+            "displacement": 320171,
+            "minLcg": -14.7,
+            "maxLcg": -14.26,
+            "metacenter": 26.66
+        },
+        {
+            "displacement": 340320,
+            "minLcg": -15.03,
+            "maxLcg": -14.7,
+            "metacenter": 26.71
+        },
+        {
+            "displacement": 360740,
+            "minLcg": -15.26,
+            "maxLcg": -15.03,
+            "metacenter": 26.79
+        },
+        {
+            "displacement": 381416,
+            "minLcg": -15.38,
+            "maxLcg": -15.26,
+            "metacenter": 26.9
+        },
+        {
+            "displacement": 402332,
+            "minLcg": -15.42,
+            "maxLcg": -15.38,
+            "metacenter": 27.03
+        },
+        {
+            "displacement": 423469,
+            "minLcg": -15.42,
+            "maxLcg": -15.39,
+            "metacenter": 27.17
+        },
+        {
+            "displacement": 444807,
+            "minLcg": -15.39,
+            "maxLcg": -15.3,
+            "metacenter": 27.32
+        },
+        {
+            "displacement": 465746,
+            "minLcg": -15.3,
+            "maxLcg": -14.94,
+            "metacenter": 26.92
+        },
+        {
+            "displacement": 486668,
+            "minLcg": -14.94,
+            "maxLcg": -14.49,
+            "metacenter": 27.1
+        },
+        {
+            "displacement": 507733,
+            "minLcg": -14.49,
+            "maxLcg": -14.04,
+            "metacenter": 27.3
+        },
+        {
+            "displacement": 511962,
+            "minLcg": -14.04,
+            "maxLcg": -13.94,
+            "metacenter": 27.34
+        }
+    ],
+    "tanks": [
+        {
+            "capTon": 2581,
+            "lcg": 140,
+            "tcg": 9,
+            "vcgEmpty": 1,
+            "vcgFull": 13,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 1,
+                    "coverageRatio": 0.333
+                },
+                {
+                    "bayIdxZeroBased": 2,
+                    "coverageRatio": 0.333
+                },
+                {
+                    "bayIdxZeroBased": 3,
+                    "coverageRatio": 0.333
+                }
+            ]
+        },
+        {
+            "capTon": 2581,
+            "lcg": 140,
+            "tcg": -9,
+            "vcgEmpty": 1,
+            "vcgFull": 13,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 1,
+                    "coverageRatio": 0.333
+                },
+                {
+                    "bayIdxZeroBased": 2,
+                    "coverageRatio": 0.333
+                },
+                {
+                    "bayIdxZeroBased": 3,
+                    "coverageRatio": 0.333
+                }
+            ]
+        },
+        {
+            "capTon": 3039,
+            "lcg": 111,
+            "tcg": 13,
+            "vcgEmpty": 1,
+            "vcgFull": 12,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 4,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 5,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 3039,
+            "lcg": 111,
+            "tcg": -13,
+            "vcgEmpty": 1,
+            "vcgFull": 12,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 4,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 5,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 2856,
+            "lcg": 82,
+            "tcg": 16,
+            "vcgEmpty": 1,
+            "vcgFull": 10,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 6,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 7,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 2856,
+            "lcg": 82,
+            "tcg": -16,
+            "vcgEmpty": 1,
+            "vcgFull": 10,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 6,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 7,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1476,
+            "lcg": 52,
+            "tcg": 11,
+            "vcgEmpty": 0,
+            "vcgFull": 2,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 8,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 9,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1469,
+            "lcg": 52,
+            "tcg": -11,
+            "vcgEmpty": 0,
+            "vcgFull": 2,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 8,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 9,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1611,
+            "lcg": 53,
+            "tcg": 24,
+            "vcgEmpty": 6,
+            "vcgFull": 13,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 8,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 9,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1611,
+            "lcg": 53,
+            "tcg": -24,
+            "vcgEmpty": 6,
+            "vcgFull": 13,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 8,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 9,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1775,
+            "lcg": 23,
+            "tcg": 13,
+            "vcgEmpty": 0,
+            "vcgFull": 2,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 10,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 11,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1775,
+            "lcg": 23,
+            "tcg": -13,
+            "vcgEmpty": 0,
+            "vcgFull": 2,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 10,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 11,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1569,
+            "lcg": 23,
+            "tcg": 26,
+            "vcgEmpty": 6,
+            "vcgFull": 14,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 10,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 11,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1569,
+            "lcg": 23,
+            "tcg": -26,
+            "vcgEmpty": 6,
+            "vcgFull": 14,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 10,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 11,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 2051,
+            "lcg": -8,
+            "tcg": 13,
+            "vcgEmpty": 0,
+            "vcgFull": 1,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 12,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 13,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 2043,
+            "lcg": -8,
+            "tcg": -13,
+            "vcgEmpty": 0,
+            "vcgFull": 1,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 12,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 13,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 631,
+            "lcg": -51,
+            "tcg": 15,
+            "vcgEmpty": 0,
+            "vcgFull": 1,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 14,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 15,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 642,
+            "lcg": -51,
+            "tcg": -15,
+            "vcgEmpty": 0,
+            "vcgFull": 1,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 14,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 15,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1900,
+            "lcg": -75,
+            "tcg": 13,
+            "vcgEmpty": 0,
+            "vcgFull": 2,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 16,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 17,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1900,
+            "lcg": -75,
+            "tcg": -13,
+            "vcgEmpty": 0,
+            "vcgFull": 2,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 16,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 17,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1551,
+            "lcg": -75,
+            "tcg": 26,
+            "vcgEmpty": 6,
+            "vcgFull": 14,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 16,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 17,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1551,
+            "lcg": -75,
+            "tcg": -26,
+            "vcgEmpty": 6,
+            "vcgFull": 14,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 16,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 17,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 1738,
+            "lcg": -105,
+            "tcg": 0,
+            "vcgEmpty": 0,
+            "vcgFull": 2,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 18,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 19,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 2761,
+            "lcg": -104,
+            "tcg": 21,
+            "vcgEmpty": 1,
+            "vcgFull": 10,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 18,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 19,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 2761,
+            "lcg": -104,
+            "tcg": -21,
+            "vcgEmpty": 1,
+            "vcgFull": 10,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 18,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 19,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 2642,
+            "lcg": -131,
+            "tcg": 19,
+            "vcgEmpty": 1,
+            "vcgFull": 12,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 20,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 21,
+                    "coverageRatio": 0.5
+                }
+            ]
+        },
+        {
+            "capTon": 2642,
+            "lcg": -131,
+            "tcg": -19,
+            "vcgEmpty": 1,
+            "vcgFull": 12,
+            "bayCoverages": [
+                {
+                    "bayIdxZeroBased": 20,
+                    "coverageRatio": 0.5
+                },
+                {
+                    "bayIdxZeroBased": 21,
+                    "coverageRatio": 0.5
+                }
+            ]
+        }
+    ],
+    "vesselName": "vessel-l"
+}

@@ -1,0 +1,2018 @@
+[{
+  "_id": {
+    "$oid": "6a130e78a5a035eefe9dbeaf"
+  },
+  "vesselId": "default-vessel-l",
+  "vesselName": "vessel-l",
+  "shipInfo": {
+    "bayCount": 24,
+    "rowCount": 22,
+    "tierCount": 21,
+    "tcgTolerance": 0.1
+  },
+  "hydroPoints": [
+    {
+      "displacement": 54037,
+      "minLcg": -8.37,
+      "maxLcg": -8.37,
+      "metacenter": 45.7
+    },
+    {
+      "displacement": 67172,
+      "minLcg": -8.37,
+      "maxLcg": -8.02,
+      "metacenter": 40.72
+    },
+    {
+      "displacement": 80797,
+      "minLcg": -8.02,
+      "maxLcg": -7.78,
+      "metacenter": 36.84
+    },
+    {
+      "displacement": 94889,
+      "minLcg": -7.78,
+      "maxLcg": -7.63,
+      "metacenter": 34.14
+    },
+    {
+      "displacement": 109446,
+      "minLcg": -7.63,
+      "maxLcg": -7.62,
+      "metacenter": 32.21
+    },
+    {
+      "displacement": 124451,
+      "minLcg": -7.73,
+      "maxLcg": -7.62,
+      "metacenter": 30.67
+    },
+    {
+      "displacement": 139900,
+      "minLcg": -7.98,
+      "maxLcg": -7.73,
+      "metacenter": 29.5
+    },
+    {
+      "displacement": 155794,
+      "minLcg": -8.37,
+      "maxLcg": -7.98,
+      "metacenter": 28.61
+    },
+    {
+      "displacement": 172144,
+      "minLcg": -8.9,
+      "maxLcg": -8.37,
+      "metacenter": 27.94
+    },
+    {
+      "displacement": 188981,
+      "minLcg": -9.58,
+      "maxLcg": -8.9,
+      "metacenter": 27.45
+    },
+    {
+      "displacement": 206337,
+      "minLcg": -10.41,
+      "maxLcg": -9.58,
+      "metacenter": 27.11
+    },
+    {
+      "displacement": 224263,
+      "minLcg": -11.32,
+      "maxLcg": -10.41,
+      "metacenter": 26.9
+    },
+    {
+      "displacement": 242694,
+      "minLcg": -12.21,
+      "maxLcg": -11.32,
+      "metacenter": 26.77
+    },
+    {
+      "displacement": 261543,
+      "minLcg": -13.01,
+      "maxLcg": -12.21,
+      "metacenter": 26.68
+    },
+    {
+      "displacement": 280761,
+      "minLcg": -13.7,
+      "maxLcg": -13.01,
+      "metacenter": 26.64
+    },
+    {
+      "displacement": 300312,
+      "minLcg": -14.26,
+      "maxLcg": -13.7,
+      "metacenter": 26.63
+    },
+    {
+      "displacement": 320171,
+      "minLcg": -14.7,
+      "maxLcg": -14.26,
+      "metacenter": 26.66
+    },
+    {
+      "displacement": 340320,
+      "minLcg": -15.03,
+      "maxLcg": -14.7,
+      "metacenter": 26.71
+    },
+    {
+      "displacement": 360740,
+      "minLcg": -15.26,
+      "maxLcg": -15.03,
+      "metacenter": 26.79
+    },
+    {
+      "displacement": 381416,
+      "minLcg": -15.38,
+      "maxLcg": -15.26,
+      "metacenter": 26.9
+    },
+    {
+      "displacement": 402332,
+      "minLcg": -15.42,
+      "maxLcg": -15.38,
+      "metacenter": 27.03
+    },
+    {
+      "displacement": 423469,
+      "minLcg": -15.42,
+      "maxLcg": -15.39,
+      "metacenter": 27.17
+    },
+    {
+      "displacement": 444807,
+      "minLcg": -15.39,
+      "maxLcg": -15.3,
+      "metacenter": 27.32
+    },
+    {
+      "displacement": 465746,
+      "minLcg": -15.3,
+      "maxLcg": -14.94,
+      "metacenter": 26.92
+    },
+    {
+      "displacement": 486668,
+      "minLcg": -14.94,
+      "maxLcg": -14.49,
+      "metacenter": 27.1
+    },
+    {
+      "displacement": 507733,
+      "minLcg": -14.49,
+      "maxLcg": -14.04,
+      "metacenter": 27.3
+    },
+    {
+      "displacement": 511962,
+      "minLcg": -14.04,
+      "maxLcg": -13.94,
+      "metacenter": 27.34
+    }
+  ],
+  "tanks": [
+    {
+      "capTon": 2581,
+      "lcg": 140,
+      "tcg": 9,
+      "vcgEmpty": 1,
+      "vcgFull": 13,
+      "bayCoverages": [
+        {
+          "bayIndex": 1,
+          "coverageRatio": 0.333,
+          "bayNo": "03"
+        },
+        {
+          "bayIndex": 2,
+          "coverageRatio": 0.333,
+          "bayNo": "05"
+        },
+        {
+          "bayIndex": 3,
+          "coverageRatio": 0.333,
+          "bayNo": "07"
+        }
+      ]
+    },
+    {
+      "capTon": 2581,
+      "lcg": 140,
+      "tcg": -9,
+      "vcgEmpty": 1,
+      "vcgFull": 13,
+      "bayCoverages": [
+        {
+          "bayIndex": 1,
+          "coverageRatio": 0.333,
+          "bayNo": "03"
+        },
+        {
+          "bayIndex": 2,
+          "coverageRatio": 0.333,
+          "bayNo": "05"
+        },
+        {
+          "bayIndex": 3,
+          "coverageRatio": 0.333,
+          "bayNo": "07"
+        }
+      ]
+    },
+    {
+      "capTon": 3039,
+      "lcg": 111,
+      "tcg": 13,
+      "vcgEmpty": 1,
+      "vcgFull": 12,
+      "bayCoverages": [
+        {
+          "bayIndex": 4,
+          "coverageRatio": 0.5,
+          "bayNo": "09"
+        },
+        {
+          "bayIndex": 5,
+          "coverageRatio": 0.5,
+          "bayNo": "11"
+        }
+      ]
+    },
+    {
+      "capTon": 3039,
+      "lcg": 111,
+      "tcg": -13,
+      "vcgEmpty": 1,
+      "vcgFull": 12,
+      "bayCoverages": [
+        {
+          "bayIndex": 4,
+          "coverageRatio": 0.5,
+          "bayNo": "09"
+        },
+        {
+          "bayIndex": 5,
+          "coverageRatio": 0.5,
+          "bayNo": "11"
+        }
+      ]
+    },
+    {
+      "capTon": 2856,
+      "lcg": 82,
+      "tcg": 16,
+      "vcgEmpty": 1,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 6,
+          "coverageRatio": 0.5,
+          "bayNo": "13"
+        },
+        {
+          "bayIndex": 7,
+          "coverageRatio": 0.5,
+          "bayNo": "15"
+        }
+      ]
+    },
+    {
+      "capTon": 2856,
+      "lcg": 82,
+      "tcg": -16,
+      "vcgEmpty": 1,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 6,
+          "coverageRatio": 0.5,
+          "bayNo": "13"
+        },
+        {
+          "bayIndex": 7,
+          "coverageRatio": 0.5,
+          "bayNo": "15"
+        }
+      ]
+    },
+    {
+      "capTon": 1476,
+      "lcg": 52,
+      "tcg": 11,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 8,
+          "coverageRatio": 0.5,
+          "bayNo": "17"
+        },
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        }
+      ]
+    },
+    {
+      "capTon": 1469,
+      "lcg": 52,
+      "tcg": -11,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 8,
+          "coverageRatio": 0.5,
+          "bayNo": "17"
+        },
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        }
+      ]
+    },
+    {
+      "capTon": 1611,
+      "lcg": 53,
+      "tcg": 24,
+      "vcgEmpty": 6,
+      "vcgFull": 13,
+      "bayCoverages": [
+        {
+          "bayIndex": 8,
+          "coverageRatio": 0.5,
+          "bayNo": "17"
+        },
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        }
+      ]
+    },
+    {
+      "capTon": 1611,
+      "lcg": 53,
+      "tcg": -24,
+      "vcgEmpty": 6,
+      "vcgFull": 13,
+      "bayCoverages": [
+        {
+          "bayIndex": 8,
+          "coverageRatio": 0.5,
+          "bayNo": "17"
+        },
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        }
+      ]
+    },
+    {
+      "capTon": 1775,
+      "lcg": 23,
+      "tcg": 13,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 10,
+          "coverageRatio": 0.5,
+          "bayNo": "21"
+        },
+        {
+          "bayIndex": 11,
+          "coverageRatio": 0.5,
+          "bayNo": "23"
+        }
+      ]
+    },
+    {
+      "capTon": 1775,
+      "lcg": 23,
+      "tcg": -13,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 10,
+          "coverageRatio": 0.5,
+          "bayNo": "21"
+        },
+        {
+          "bayIndex": 11,
+          "coverageRatio": 0.5,
+          "bayNo": "23"
+        }
+      ]
+    },
+    {
+      "capTon": 1569,
+      "lcg": 23,
+      "tcg": 26,
+      "vcgEmpty": 6,
+      "vcgFull": 14,
+      "bayCoverages": [
+        {
+          "bayIndex": 10,
+          "coverageRatio": 0.5,
+          "bayNo": "21"
+        },
+        {
+          "bayIndex": 11,
+          "coverageRatio": 0.5,
+          "bayNo": "23"
+        }
+      ]
+    },
+    {
+      "capTon": 1569,
+      "lcg": 23,
+      "tcg": -26,
+      "vcgEmpty": 6,
+      "vcgFull": 14,
+      "bayCoverages": [
+        {
+          "bayIndex": 10,
+          "coverageRatio": 0.5,
+          "bayNo": "21"
+        },
+        {
+          "bayIndex": 11,
+          "coverageRatio": 0.5,
+          "bayNo": "23"
+        }
+      ]
+    },
+    {
+      "capTon": 2051,
+      "lcg": -8,
+      "tcg": 13,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 12,
+          "coverageRatio": 0.5,
+          "bayNo": "25"
+        },
+        {
+          "bayIndex": 13,
+          "coverageRatio": 0.5,
+          "bayNo": "27"
+        }
+      ]
+    },
+    {
+      "capTon": 2043,
+      "lcg": -8,
+      "tcg": -13,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 12,
+          "coverageRatio": 0.5,
+          "bayNo": "25"
+        },
+        {
+          "bayIndex": 13,
+          "coverageRatio": 0.5,
+          "bayNo": "27"
+        }
+      ]
+    },
+    {
+      "capTon": 631,
+      "lcg": -51,
+      "tcg": 15,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 14,
+          "coverageRatio": 0.5,
+          "bayNo": "29"
+        },
+        {
+          "bayIndex": 15,
+          "coverageRatio": 0.5,
+          "bayNo": "31"
+        }
+      ]
+    },
+    {
+      "capTon": 642,
+      "lcg": -51,
+      "tcg": -15,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 14,
+          "coverageRatio": 0.5,
+          "bayNo": "29"
+        },
+        {
+          "bayIndex": 15,
+          "coverageRatio": 0.5,
+          "bayNo": "31"
+        }
+      ]
+    },
+    {
+      "capTon": 1900,
+      "lcg": -75,
+      "tcg": 13,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        },
+        {
+          "bayIndex": 17,
+          "coverageRatio": 0.5,
+          "bayNo": "35"
+        }
+      ]
+    },
+    {
+      "capTon": 1900,
+      "lcg": -75,
+      "tcg": -13,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        },
+        {
+          "bayIndex": 17,
+          "coverageRatio": 0.5,
+          "bayNo": "35"
+        }
+      ]
+    },
+    {
+      "capTon": 1551,
+      "lcg": -75,
+      "tcg": 26,
+      "vcgEmpty": 6,
+      "vcgFull": 14,
+      "bayCoverages": [
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        },
+        {
+          "bayIndex": 17,
+          "coverageRatio": 0.5,
+          "bayNo": "35"
+        }
+      ]
+    },
+    {
+      "capTon": 1551,
+      "lcg": -75,
+      "tcg": -26,
+      "vcgEmpty": 6,
+      "vcgFull": 14,
+      "bayCoverages": [
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        },
+        {
+          "bayIndex": 17,
+          "coverageRatio": 0.5,
+          "bayNo": "35"
+        }
+      ]
+    },
+    {
+      "capTon": 1738,
+      "lcg": -105,
+      "tcg": 0,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 18,
+          "coverageRatio": 0.5,
+          "bayNo": "37"
+        },
+        {
+          "bayIndex": 19,
+          "coverageRatio": 0.5,
+          "bayNo": "39"
+        }
+      ]
+    },
+    {
+      "capTon": 2761,
+      "lcg": -104,
+      "tcg": 21,
+      "vcgEmpty": 1,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 18,
+          "coverageRatio": 0.5,
+          "bayNo": "37"
+        },
+        {
+          "bayIndex": 19,
+          "coverageRatio": 0.5,
+          "bayNo": "39"
+        }
+      ]
+    },
+    {
+      "capTon": 2761,
+      "lcg": -104,
+      "tcg": -21,
+      "vcgEmpty": 1,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 18,
+          "coverageRatio": 0.5,
+          "bayNo": "37"
+        },
+        {
+          "bayIndex": 19,
+          "coverageRatio": 0.5,
+          "bayNo": "39"
+        }
+      ]
+    },
+    {
+      "capTon": 2642,
+      "lcg": -131,
+      "tcg": 19,
+      "vcgEmpty": 1,
+      "vcgFull": 12,
+      "bayCoverages": [
+        {
+          "bayIndex": 20,
+          "coverageRatio": 0.5,
+          "bayNo": "41"
+        },
+        {
+          "bayIndex": 21,
+          "coverageRatio": 0.5,
+          "bayNo": "43"
+        }
+      ]
+    },
+    {
+      "capTon": 2642,
+      "lcg": -131,
+      "tcg": -19,
+      "vcgEmpty": 1,
+      "vcgFull": 12,
+      "bayCoverages": [
+        {
+          "bayIndex": 20,
+          "coverageRatio": 0.5,
+          "bayNo": "41"
+        },
+        {
+          "bayIndex": 21,
+          "coverageRatio": 0.5,
+          "bayNo": "43"
+        }
+      ]
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-05-24T14:43:04.115Z"
+  },
+  "lastModifiedAt": {
+    "$date": "2026-05-24T14:43:04.115Z"
+  },
+  "version": {
+    "$numberLong": "0"
+  },
+  "_class": "com.example.demo.entity.vessel.profile.VesselProfile"
+},
+{
+  "_id": {
+    "$oid": "6a130e78a5a035eefe9dbec8"
+  },
+  "vesselId": "default-vessel-m",
+  "vesselName": "vessel-m",
+  "shipInfo": {
+    "bayCount": 24,
+    "rowCount": 17,
+    "tierCount": 19,
+    "tcgTolerance": 0.1
+  },
+  "hydroPoints": [
+    {
+      "displacement": 32726,
+      "minLcg": -3.77,
+      "maxLcg": -3.77,
+      "metacenter": 34.37
+    },
+    {
+      "displacement": 37585,
+      "minLcg": -3.77,
+      "maxLcg": -3.77,
+      "metacenter": 31.86
+    },
+    {
+      "displacement": 42559,
+      "minLcg": -3.78,
+      "maxLcg": -3.77,
+      "metacenter": 29.87
+    },
+    {
+      "displacement": 47645,
+      "minLcg": -3.79,
+      "maxLcg": -3.78,
+      "metacenter": 28.17
+    },
+    {
+      "displacement": 52827,
+      "minLcg": -3.8,
+      "maxLcg": -3.79,
+      "metacenter": 26.71
+    },
+    {
+      "displacement": 58101,
+      "minLcg": -3.83,
+      "maxLcg": -3.8,
+      "metacenter": 25.48
+    },
+    {
+      "displacement": 63461,
+      "minLcg": -3.87,
+      "maxLcg": -3.83,
+      "metacenter": 24.52
+    },
+    {
+      "displacement": 68909,
+      "minLcg": -3.95,
+      "maxLcg": -3.87,
+      "metacenter": 23.65
+    },
+    {
+      "displacement": 74436,
+      "minLcg": -4.05,
+      "maxLcg": -3.95,
+      "metacenter": 22.91
+    },
+    {
+      "displacement": 80043,
+      "minLcg": -4.18,
+      "maxLcg": -4.05,
+      "metacenter": 22.29
+    },
+    {
+      "displacement": 85728,
+      "minLcg": -4.34,
+      "maxLcg": -4.18,
+      "metacenter": 21.76
+    },
+    {
+      "displacement": 91490,
+      "minLcg": -4.54,
+      "maxLcg": -4.34,
+      "metacenter": 21.32
+    },
+    {
+      "displacement": 97329,
+      "minLcg": -4.76,
+      "maxLcg": -4.54,
+      "metacenter": 20.94
+    },
+    {
+      "displacement": 103246,
+      "minLcg": -5.01,
+      "maxLcg": -4.76,
+      "metacenter": 20.62
+    },
+    {
+      "displacement": 109239,
+      "minLcg": -5.29,
+      "maxLcg": -5.01,
+      "metacenter": 20.36
+    },
+    {
+      "displacement": 115308,
+      "minLcg": -5.6,
+      "maxLcg": -5.29,
+      "metacenter": 20.14
+    },
+    {
+      "displacement": 121453,
+      "minLcg": -5.93,
+      "maxLcg": -5.6,
+      "metacenter": 19.96
+    },
+    {
+      "displacement": 127680,
+      "minLcg": -6.28,
+      "maxLcg": -5.93,
+      "metacenter": 19.82
+    },
+    {
+      "displacement": 133995,
+      "minLcg": -6.64,
+      "maxLcg": -6.28,
+      "metacenter": 19.71
+    },
+    {
+      "displacement": 140403,
+      "minLcg": -7.01,
+      "maxLcg": -6.64,
+      "metacenter": 19.63
+    },
+    {
+      "displacement": 146907,
+      "minLcg": -7.38,
+      "maxLcg": -7.01,
+      "metacenter": 19.58
+    },
+    {
+      "displacement": 153508,
+      "minLcg": -7.76,
+      "maxLcg": -7.38,
+      "metacenter": 19.55
+    },
+    {
+      "displacement": 160210,
+      "minLcg": -8.15,
+      "maxLcg": -7.76,
+      "metacenter": 19.55
+    },
+    {
+      "displacement": 167001,
+      "minLcg": -8.52,
+      "maxLcg": -8.15,
+      "metacenter": 19.56
+    },
+    {
+      "displacement": 173868,
+      "minLcg": -8.88,
+      "maxLcg": -8.52,
+      "metacenter": 19.59
+    },
+    {
+      "displacement": 180805,
+      "minLcg": -9.21,
+      "maxLcg": -8.88,
+      "metacenter": 19.63
+    },
+    {
+      "displacement": 187807,
+      "minLcg": -9.51,
+      "maxLcg": -9.21,
+      "metacenter": 19.68
+    },
+    {
+      "displacement": 194869,
+      "minLcg": -9.79,
+      "maxLcg": -9.51,
+      "metacenter": 19.74
+    },
+    {
+      "displacement": 201993,
+      "minLcg": -10.03,
+      "maxLcg": -9.79,
+      "metacenter": 19.81
+    },
+    {
+      "displacement": 209175,
+      "minLcg": -10.24,
+      "maxLcg": -10.03,
+      "metacenter": 19.89
+    },
+    {
+      "displacement": 216412,
+      "minLcg": -10.43,
+      "maxLcg": -10.24,
+      "metacenter": 19.98
+    },
+    {
+      "displacement": 223703,
+      "minLcg": -10.58,
+      "maxLcg": -10.43,
+      "metacenter": 20.07
+    },
+    {
+      "displacement": 231047,
+      "minLcg": -10.71,
+      "maxLcg": -10.58,
+      "metacenter": 20.17
+    },
+    {
+      "displacement": 238441,
+      "minLcg": -10.81,
+      "maxLcg": -10.71,
+      "metacenter": 20.28
+    },
+    {
+      "displacement": 245884,
+      "minLcg": -10.88,
+      "maxLcg": -10.81,
+      "metacenter": 20.39
+    },
+    {
+      "displacement": 253355,
+      "minLcg": -10.92,
+      "maxLcg": -10.88,
+      "metacenter": 20.11
+    },
+    {
+      "displacement": 260541,
+      "minLcg": -10.92,
+      "maxLcg": -10.73,
+      "metacenter": 20.22
+    },
+    {
+      "displacement": 267765,
+      "minLcg": -10.73,
+      "maxLcg": -10.53,
+      "metacenter": 20.34
+    },
+    {
+      "displacement": 275027,
+      "minLcg": -10.53,
+      "maxLcg": -10.32,
+      "metacenter": 20.47
+    },
+    {
+      "displacement": 282325,
+      "minLcg": -10.32,
+      "maxLcg": -10.1,
+      "metacenter": 20.6
+    },
+    {
+      "displacement": 289659,
+      "minLcg": -10.1,
+      "maxLcg": -9.87,
+      "metacenter": 20.73
+    },
+    {
+      "displacement": 291130,
+      "minLcg": -9.87,
+      "maxLcg": -9.82,
+      "metacenter": 20.76
+    }
+  ],
+  "tanks": [
+    {
+      "capTon": 2416,
+      "lcg": 138,
+      "tcg": 0,
+      "vcgEmpty": 0,
+      "vcgFull": 12,
+      "bayCoverages": [
+        {
+          "bayIndex": 1,
+          "coverageRatio": 0.5,
+          "bayNo": "03"
+        },
+        {
+          "bayIndex": 2,
+          "coverageRatio": 0.5,
+          "bayNo": "05"
+        }
+      ]
+    },
+    {
+      "capTon": 2637,
+      "lcg": 116,
+      "tcg": 9,
+      "vcgEmpty": 0,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 2,
+          "coverageRatio": 0.5,
+          "bayNo": "05"
+        },
+        {
+          "bayIndex": 3,
+          "coverageRatio": 0.5,
+          "bayNo": "07"
+        }
+      ]
+    },
+    {
+      "capTon": 2638,
+      "lcg": 116,
+      "tcg": -9,
+      "vcgEmpty": 0,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 2,
+          "coverageRatio": 0.5,
+          "bayNo": "05"
+        },
+        {
+          "bayIndex": 3,
+          "coverageRatio": 0.5,
+          "bayNo": "07"
+        }
+      ]
+    },
+    {
+      "capTon": 2513,
+      "lcg": 89,
+      "tcg": 12,
+      "vcgEmpty": 0,
+      "vcgFull": 9,
+      "bayCoverages": [
+        {
+          "bayIndex": 5,
+          "coverageRatio": 0.5,
+          "bayNo": "11"
+        },
+        {
+          "bayIndex": 6,
+          "coverageRatio": 0.5,
+          "bayNo": "13"
+        }
+      ]
+    },
+    {
+      "capTon": 2516,
+      "lcg": 89,
+      "tcg": -12,
+      "vcgEmpty": 0,
+      "vcgFull": 9,
+      "bayCoverages": [
+        {
+          "bayIndex": 5,
+          "coverageRatio": 0.5,
+          "bayNo": "11"
+        },
+        {
+          "bayIndex": 6,
+          "coverageRatio": 0.5,
+          "bayNo": "13"
+        }
+      ]
+    },
+    {
+      "capTon": 1348,
+      "lcg": 60,
+      "tcg": 9,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 7,
+          "coverageRatio": 0.5,
+          "bayNo": "15"
+        },
+        {
+          "bayIndex": 8,
+          "coverageRatio": 0.5,
+          "bayNo": "17"
+        }
+      ]
+    },
+    {
+      "capTon": 1293,
+      "lcg": 60,
+      "tcg": -9,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 7,
+          "coverageRatio": 0.5,
+          "bayNo": "15"
+        },
+        {
+          "bayIndex": 8,
+          "coverageRatio": 0.5,
+          "bayNo": "17"
+        }
+      ]
+    },
+    {
+      "capTon": 722,
+      "lcg": 30,
+      "tcg": 0,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        },
+        {
+          "bayIndex": 10,
+          "coverageRatio": 0.5,
+          "bayNo": "21"
+        }
+      ]
+    },
+    {
+      "capTon": 816,
+      "lcg": 30,
+      "tcg": 14,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        },
+        {
+          "bayIndex": 10,
+          "coverageRatio": 0.5,
+          "bayNo": "21"
+        }
+      ]
+    },
+    {
+      "capTon": 816,
+      "lcg": 30,
+      "tcg": -14,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        },
+        {
+          "bayIndex": 10,
+          "coverageRatio": 0.5,
+          "bayNo": "21"
+        }
+      ]
+    },
+    {
+      "capTon": 824,
+      "lcg": 8,
+      "tcg": 11,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 11,
+          "coverageRatio": 1,
+          "bayNo": "23"
+        }
+      ]
+    },
+    {
+      "capTon": 824,
+      "lcg": 8,
+      "tcg": -11,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 11,
+          "coverageRatio": 1,
+          "bayNo": "23"
+        }
+      ]
+    },
+    {
+      "capTon": 387,
+      "lcg": 7,
+      "tcg": 20,
+      "vcgEmpty": 5,
+      "vcgFull": 11,
+      "bayCoverages": [
+        {
+          "bayIndex": 11,
+          "coverageRatio": 1,
+          "bayNo": "23"
+        }
+      ]
+    },
+    {
+      "capTon": 387,
+      "lcg": 7,
+      "tcg": -20,
+      "vcgEmpty": 5,
+      "vcgFull": 11,
+      "bayCoverages": [
+        {
+          "bayIndex": 11,
+          "coverageRatio": 1,
+          "bayNo": "23"
+        }
+      ]
+    },
+    {
+      "capTon": 776,
+      "lcg": -15,
+      "tcg": 0,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 12,
+          "coverageRatio": 0.5,
+          "bayNo": "25"
+        },
+        {
+          "bayIndex": 13,
+          "coverageRatio": 0.5,
+          "bayNo": "27"
+        }
+      ]
+    },
+    {
+      "capTon": 1087,
+      "lcg": -15,
+      "tcg": 15,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 12,
+          "coverageRatio": 0.5,
+          "bayNo": "25"
+        },
+        {
+          "bayIndex": 13,
+          "coverageRatio": 0.5,
+          "bayNo": "27"
+        }
+      ]
+    },
+    {
+      "capTon": 1087,
+      "lcg": -15,
+      "tcg": -15,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 12,
+          "coverageRatio": 0.5,
+          "bayNo": "25"
+        },
+        {
+          "bayIndex": 13,
+          "coverageRatio": 0.5,
+          "bayNo": "27"
+        }
+      ]
+    },
+    {
+      "capTon": 736,
+      "lcg": -37,
+      "tcg": 12,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 14,
+          "coverageRatio": 1,
+          "bayNo": "29"
+        }
+      ]
+    },
+    {
+      "capTon": 733,
+      "lcg": -37,
+      "tcg": -12,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 14,
+          "coverageRatio": 1,
+          "bayNo": "29"
+        }
+      ]
+    },
+    {
+      "capTon": 360,
+      "lcg": -36,
+      "tcg": 20,
+      "vcgEmpty": 5,
+      "vcgFull": 11,
+      "bayCoverages": [
+        {
+          "bayIndex": 14,
+          "coverageRatio": 1,
+          "bayNo": "29"
+        }
+      ]
+    },
+    {
+      "capTon": 360,
+      "lcg": -36,
+      "tcg": -20,
+      "vcgEmpty": 5,
+      "vcgFull": 11,
+      "bayCoverages": [
+        {
+          "bayIndex": 14,
+          "coverageRatio": 1,
+          "bayNo": "29"
+        }
+      ]
+    },
+    {
+      "capTon": 862,
+      "lcg": -60,
+      "tcg": 0,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 15,
+          "coverageRatio": 0.5,
+          "bayNo": "31"
+        },
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        }
+      ]
+    },
+    {
+      "capTon": 906,
+      "lcg": -62,
+      "tcg": 13,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 15,
+          "coverageRatio": 0.5,
+          "bayNo": "31"
+        },
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        }
+      ]
+    },
+    {
+      "capTon": 906,
+      "lcg": -62,
+      "tcg": -13,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 15,
+          "coverageRatio": 0.5,
+          "bayNo": "31"
+        },
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        }
+      ]
+    },
+    {
+      "capTon": 607,
+      "lcg": -59,
+      "tcg": 20,
+      "vcgEmpty": 5,
+      "vcgFull": 11,
+      "bayCoverages": [
+        {
+          "bayIndex": 15,
+          "coverageRatio": 0.5,
+          "bayNo": "31"
+        },
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        }
+      ]
+    },
+    {
+      "capTon": 675,
+      "lcg": -61,
+      "tcg": -20,
+      "vcgEmpty": 5,
+      "vcgFull": 11,
+      "bayCoverages": [
+        {
+          "bayIndex": 15,
+          "coverageRatio": 0.5,
+          "bayNo": "31"
+        },
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        }
+      ]
+    },
+    {
+      "capTon": 724,
+      "lcg": -99,
+      "tcg": 14,
+      "vcgEmpty": 1,
+      "vcgFull": 5,
+      "bayCoverages": [
+        {
+          "bayIndex": 17,
+          "coverageRatio": 0.5,
+          "bayNo": "35"
+        },
+        {
+          "bayIndex": 18,
+          "coverageRatio": 0.5,
+          "bayNo": "37"
+        }
+      ]
+    },
+    {
+      "capTon": 689,
+      "lcg": -99,
+      "tcg": -14,
+      "vcgEmpty": 1,
+      "vcgFull": 5,
+      "bayCoverages": [
+        {
+          "bayIndex": 17,
+          "coverageRatio": 0.5,
+          "bayNo": "35"
+        },
+        {
+          "bayIndex": 18,
+          "coverageRatio": 0.5,
+          "bayNo": "37"
+        }
+      ]
+    },
+    {
+      "capTon": 1890,
+      "lcg": -120,
+      "tcg": 15,
+      "vcgEmpty": 2,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 19,
+          "coverageRatio": 0.5,
+          "bayNo": "39"
+        },
+        {
+          "bayIndex": 20,
+          "coverageRatio": 0.5,
+          "bayNo": "41"
+        }
+      ]
+    },
+    {
+      "capTon": 1890,
+      "lcg": -120,
+      "tcg": -15,
+      "vcgEmpty": 2,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 19,
+          "coverageRatio": 0.5,
+          "bayNo": "39"
+        },
+        {
+          "bayIndex": 20,
+          "coverageRatio": 0.5,
+          "bayNo": "41"
+        }
+      ]
+    },
+    {
+      "capTon": 851,
+      "lcg": -142,
+      "tcg": 14,
+      "vcgEmpty": 8,
+      "vcgFull": 13,
+      "bayCoverages": [
+        {
+          "bayIndex": 21,
+          "coverageRatio": 1,
+          "bayNo": "43"
+        }
+      ]
+    },
+    {
+      "capTon": 851,
+      "lcg": -142,
+      "tcg": -14,
+      "vcgEmpty": 8,
+      "vcgFull": 13,
+      "bayCoverages": [
+        {
+          "bayIndex": 21,
+          "coverageRatio": 1,
+          "bayNo": "43"
+        }
+      ]
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-05-24T14:43:04.392Z"
+  },
+  "lastModifiedAt": {
+    "$date": "2026-05-24T14:43:04.392Z"
+  },
+  "version": {
+    "$numberLong": "0"
+  },
+  "_class": "com.example.demo.entity.vessel.profile.VesselProfile"
+},
+{
+  "_id": {
+    "$oid": "6a130e78a5a035eefe9dbede"
+  },
+  "vesselId": "default-vessel-s",
+  "vesselName": "vessel-s",
+  "shipInfo": {
+    "bayCount": 21,
+    "rowCount": 16,
+    "tierCount": 18,
+    "tcgTolerance": 0.1
+  },
+  "hydroPoints": [
+    {
+      "displacement": 11340,
+      "minLcg": -4.83,
+      "maxLcg": -4.83,
+      "metacenter": 56.8
+    },
+    {
+      "displacement": 18281,
+      "minLcg": -4.83,
+      "maxLcg": -4.2,
+      "metacenter": 42.34
+    },
+    {
+      "displacement": 25795,
+      "minLcg": -4.2,
+      "maxLcg": -3.79,
+      "metacenter": 34.54
+    },
+    {
+      "displacement": 33804,
+      "minLcg": -3.79,
+      "maxLcg": -3.56,
+      "metacenter": 30.27
+    },
+    {
+      "displacement": 42270,
+      "minLcg": -3.56,
+      "maxLcg": -3.38,
+      "metacenter": 27.21
+    },
+    {
+      "displacement": 51124,
+      "minLcg": -3.38,
+      "maxLcg": -3.22,
+      "metacenter": 24.99
+    },
+    {
+      "displacement": 60324,
+      "minLcg": -3.22,
+      "maxLcg": -3.17,
+      "metacenter": 23.42
+    },
+    {
+      "displacement": 69854,
+      "minLcg": -3.25,
+      "maxLcg": -3.17,
+      "metacenter": 22.29
+    },
+    {
+      "displacement": 79698,
+      "minLcg": -3.46,
+      "maxLcg": -3.25,
+      "metacenter": 21.48
+    },
+    {
+      "displacement": 89847,
+      "minLcg": -3.79,
+      "maxLcg": -3.46,
+      "metacenter": 20.9
+    },
+    {
+      "displacement": 100294,
+      "minLcg": -4.22,
+      "maxLcg": -3.79,
+      "metacenter": 20.5
+    },
+    {
+      "displacement": 111073,
+      "minLcg": -4.72,
+      "maxLcg": -4.22,
+      "metacenter": 20.25
+    },
+    {
+      "displacement": 122197,
+      "minLcg": -5.28,
+      "maxLcg": -4.72,
+      "metacenter": 20.11
+    },
+    {
+      "displacement": 133682,
+      "minLcg": -5.87,
+      "maxLcg": -5.28,
+      "metacenter": 20.06
+    },
+    {
+      "displacement": 145499,
+      "minLcg": -6.47,
+      "maxLcg": -5.87,
+      "metacenter": 20.09
+    }
+  ],
+  "tanks": [
+    {
+      "capTon": 2634,
+      "lcg": 107,
+      "tcg": -8,
+      "vcgEmpty": 3,
+      "vcgFull": 11,
+      "bayCoverages": [
+        {
+          "bayIndex": 1,
+          "coverageRatio": 0.333,
+          "bayNo": "03"
+        },
+        {
+          "bayIndex": 2,
+          "coverageRatio": 0.333,
+          "bayNo": "05"
+        },
+        {
+          "bayIndex": 3,
+          "coverageRatio": 0.333,
+          "bayNo": "07"
+        }
+      ]
+    },
+    {
+      "capTon": 2640,
+      "lcg": 107,
+      "tcg": 8,
+      "vcgEmpty": 4,
+      "vcgFull": 11,
+      "bayCoverages": [
+        {
+          "bayIndex": 1,
+          "coverageRatio": 0.333,
+          "bayNo": "03"
+        },
+        {
+          "bayIndex": 2,
+          "coverageRatio": 0.333,
+          "bayNo": "05"
+        },
+        {
+          "bayIndex": 3,
+          "coverageRatio": 0.333,
+          "bayNo": "07"
+        }
+      ]
+    },
+    {
+      "capTon": 2474,
+      "lcg": 80,
+      "tcg": -12,
+      "vcgEmpty": 1,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 4,
+          "coverageRatio": 0.5,
+          "bayNo": "09"
+        },
+        {
+          "bayIndex": 5,
+          "coverageRatio": 0.5,
+          "bayNo": "11"
+        }
+      ]
+    },
+    {
+      "capTon": 2474,
+      "lcg": 80,
+      "tcg": 12,
+      "vcgEmpty": 1,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 4,
+          "coverageRatio": 0.5,
+          "bayNo": "09"
+        },
+        {
+          "bayIndex": 5,
+          "coverageRatio": 0.5,
+          "bayNo": "11"
+        }
+      ]
+    },
+    {
+      "capTon": 1036,
+      "lcg": 51,
+      "tcg": -9,
+      "vcgEmpty": 0,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 6,
+          "coverageRatio": 0.5,
+          "bayNo": "13"
+        },
+        {
+          "bayIndex": 7,
+          "coverageRatio": 0.5,
+          "bayNo": "15"
+        }
+      ]
+    },
+    {
+      "capTon": 1039,
+      "lcg": 51,
+      "tcg": 9,
+      "vcgEmpty": 1,
+      "vcgFull": 2,
+      "bayCoverages": [
+        {
+          "bayIndex": 6,
+          "coverageRatio": 0.5,
+          "bayNo": "13"
+        },
+        {
+          "bayIndex": 7,
+          "coverageRatio": 0.5,
+          "bayNo": "15"
+        }
+      ]
+    },
+    {
+      "capTon": 758,
+      "lcg": 23,
+      "tcg": -9,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 8,
+          "coverageRatio": 0.5,
+          "bayNo": "17"
+        },
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        }
+      ]
+    },
+    {
+      "capTon": 764,
+      "lcg": 23,
+      "tcg": 9,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 8,
+          "coverageRatio": 0.5,
+          "bayNo": "17"
+        },
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        }
+      ]
+    },
+    {
+      "capTon": 1747,
+      "lcg": 22,
+      "tcg": -19,
+      "vcgEmpty": 2,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 8,
+          "coverageRatio": 0.5,
+          "bayNo": "17"
+        },
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        }
+      ]
+    },
+    {
+      "capTon": 1747,
+      "lcg": 22,
+      "tcg": 19,
+      "vcgEmpty": 2,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 8,
+          "coverageRatio": 0.5,
+          "bayNo": "17"
+        },
+        {
+          "bayIndex": 9,
+          "coverageRatio": 0.5,
+          "bayNo": "19"
+        }
+      ]
+    },
+    {
+      "capTon": 726,
+      "lcg": -5,
+      "tcg": -9,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 10,
+          "coverageRatio": 0.5,
+          "bayNo": "21"
+        },
+        {
+          "bayIndex": 11,
+          "coverageRatio": 0.5,
+          "bayNo": "23"
+        }
+      ]
+    },
+    {
+      "capTon": 728,
+      "lcg": -5,
+      "tcg": 9,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 10,
+          "coverageRatio": 0.5,
+          "bayNo": "21"
+        },
+        {
+          "bayIndex": 11,
+          "coverageRatio": 0.5,
+          "bayNo": "23"
+        }
+      ]
+    },
+    {
+      "capTon": 800,
+      "lcg": -35,
+      "tcg": -9,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 12,
+          "coverageRatio": 0.5,
+          "bayNo": "25"
+        },
+        {
+          "bayIndex": 13,
+          "coverageRatio": 0.5,
+          "bayNo": "27"
+        }
+      ]
+    },
+    {
+      "capTon": 803,
+      "lcg": -35,
+      "tcg": 9,
+      "vcgEmpty": 0,
+      "vcgFull": 1,
+      "bayCoverages": [
+        {
+          "bayIndex": 12,
+          "coverageRatio": 0.5,
+          "bayNo": "25"
+        },
+        {
+          "bayIndex": 13,
+          "coverageRatio": 0.5,
+          "bayNo": "27"
+        }
+      ]
+    },
+    {
+      "capTon": 1168,
+      "lcg": -90,
+      "tcg": -15,
+      "vcgEmpty": 3,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 15,
+          "coverageRatio": 0.5,
+          "bayNo": "31"
+        },
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        }
+      ]
+    },
+    {
+      "capTon": 1168,
+      "lcg": -90,
+      "tcg": 15,
+      "vcgEmpty": 3,
+      "vcgFull": 10,
+      "bayCoverages": [
+        {
+          "bayIndex": 15,
+          "coverageRatio": 0.5,
+          "bayNo": "31"
+        },
+        {
+          "bayIndex": 16,
+          "coverageRatio": 0.5,
+          "bayNo": "33"
+        }
+      ]
+    },
+    {
+      "capTon": 1905,
+      "lcg": -110,
+      "tcg": -14,
+      "vcgEmpty": 8,
+      "vcgFull": 12,
+      "bayCoverages": [
+        {
+          "bayIndex": 17,
+          "coverageRatio": 0.5,
+          "bayNo": "35"
+        },
+        {
+          "bayIndex": 18,
+          "coverageRatio": 0.5,
+          "bayNo": "37"
+        }
+      ]
+    },
+    {
+      "capTon": 1905,
+      "lcg": -110,
+      "tcg": 14,
+      "vcgEmpty": 8,
+      "vcgFull": 12,
+      "bayCoverages": [
+        {
+          "bayIndex": 17,
+          "coverageRatio": 0.5,
+          "bayNo": "35"
+        },
+        {
+          "bayIndex": 18,
+          "coverageRatio": 0.5,
+          "bayNo": "37"
+        }
+      ]
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-05-24T14:43:04.913Z"
+  },
+  "lastModifiedAt": {
+    "$date": "2026-05-24T14:43:04.913Z"
+  },
+  "version": {
+    "$numberLong": "0"
+  },
+  "_class": "com.example.demo.entity.vessel.profile.VesselProfile"
+}]

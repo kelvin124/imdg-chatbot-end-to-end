@@ -1,0 +1,62 @@
+name: mongodb
+
+services:
+
+  kafka:
+    image: apache/kafka:4.1.2
+    container_name: kafka
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: 'broker,controller'
+      KAFKA_CONTROLLER_QUORUM_VOTERS: '1@kafka:9094'
+      KAFKA_LISTENERS: 'INTERNAL://:9093,CLIENT://:9092,CONTROLLER://:9094'
+      KAFKA_ADVERTISED_LISTENERS: 'INTERNAL://kafka:9093,CLIENT://localhost:9092'
+      KAFKA_INTER_BROKER_LISTENER_NAME: 'INTERNAL'
+      KAFKA_CONTROLLER_LISTENER_NAMES: 'CONTROLLER'
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: 'INTERNAL:PLAINTEXT,CLIENT:SASL_PLAINTEXT,CONTROLLER:PLAINTEXT'
+      KAFKA_SASL_ENABLED_MECHANISMS: 'PLAIN'
+      KAFKA_LISTENER_NAME_CLIENT_SASL_ENABLED_MECHANISMS: 'PLAIN'
+      KAFKA_OPTS: "-Djava.security.auth.login.config=/etc/kafka/kafka_server_jaas.conf"
+    volumes:
+      - kafka:/var/lib/kafka/data
+      - ./kafka_server_jaas.conf:/etc/kafka/kafka_server_jaas.conf
+    ports:
+      - "9092:9092"
+    networks:
+      - dev
+
+# Exec into the container, run
+# -u root -p root --host mongodb --eval "rs.initiate({_id: 'rs0', members: [{_id: 0, host: 'localhost:27017'}]})"
+  mongodb:
+    image: mongo:latest
+    container_name: "mongodb"
+    ports:
+      - "27017:27017"
+    command:
+      - /bin/sh
+      - -c
+      - |
+        chmod 400 /etc/mongo-keyfile.key
+        chown 999:999 /etc/mongo-keyfile.key
+        mongod --replSet rs0 --keyFile /etc/mongo-keyfile.key --bind_ip_all
+#    environment:
+#      MONGO_INITDB_ROOT_USERNAME: root
+#      MONGO_INITDB_ROOT_PASSWORD: root
+    volumes:
+      - ./init.js:/docker-entrypoint-initdb.d/init.js
+      - mongodb:/data/db
+      - mongodb:/data/configdb
+      - ./mongo-keyfile.key:/etc/mongo-keyfile.key
+
+volumes:
+  zookeeper:
+    driver: local
+  kafka:
+    driver: local
+  mongodb:
+    driver: local
+
+networks:
+  dev:
+    name: dev
+    driver: bridge

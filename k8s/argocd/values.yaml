@@ -1,0 +1,10 @@
+global:
+  domain: argocd.example.com
+
+  image:
+    repository: quay.io/argoproj/argocd
+    tag: "v3.4.4"
+
+crds:
+  install: true
+  keep: false

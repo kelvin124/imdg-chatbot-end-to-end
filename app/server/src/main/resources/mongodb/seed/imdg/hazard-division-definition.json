@@ -1,0 +1,82 @@
+[
+  {
+    "division": "1.1",
+    "hazardClass": "1",
+    "substance": "substances and articles which have a mass explosion hazard"
+  },
+  {
+    "division": "1.2",
+    "hazardClass": "1",
+    "substance": "substances and articles which have a projection hazard but not a mass explosion hazard"
+  },
+  {
+    "division": "1.3",
+    "hazardClass": "1",
+    "substance": "substances and articles which have a fire hazard and either a minor blast hazard or a minor projection hazard or both, but not a mass explosion hazard"
+  },
+  {
+    "division": "1.4",
+    "hazardClass": "1",
+    "substance": "substances and articles which present no significant hazard"
+  },
+  {
+    "division": "1.5",
+    "hazardClass": "1",
+    "substance": "very insensitive substances which have a mass explosion hazard"
+  },
+  {
+    "division": "1.6",
+    "hazardClass": "1",
+    "substance": "extremely insensitive articles which do not have a mass explosion hazard"
+  },
+  {
+    "division": "2.1",
+    "hazardClass": "2",
+    "substance": "flammable gases"
+  },
+  {
+    "division": "2.2",
+    "hazardClass": "2",
+    "substance": "non-flammable, non-toxic gases"
+  },
+  {
+    "division": "2.3",
+    "hazardClass": "2",
+    "substance": "toxic gases"
+  },
+  {
+    "division": "4.1",
+    "hazardClass": "4",
+    "substance": "flammable solids, self-reactive substances, solid desensitized explosives and polymerizing substances"
+  },
+  {
+    "division": "4.2",
+    "hazardClass": "4",
+    "substance": "substances liable to spontaneous combustion"
+  },
+  {
+    "division": "4.3",
+    "hazardClass": "4",
+    "substance": "substances which, in contact with water, emit flammable gases"
+  },
+  {
+    "division": "5.1",
+    "hazardClass": "5",
+    "substance": "oxidizing substances"
+  },
+  {
+    "division": "5.2",
+    "hazardClass": "5",
+    "substance": "organic peroxides"
+  },
+  {
+    "division": "6.1",
+    "hazardClass": "6",
+    "substance": "toxic substances"
+  },
+  {
+    "division": "6.2",
+    "hazardClass": "6",
+    "substance": "infectious substances"
+  }
+]

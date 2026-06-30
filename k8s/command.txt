@@ -1,0 +1,21 @@
+helm repo
+
+helm repo add grafana-community https://grafana-community.github.io/helm-charts
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo add argo https://argoproj.github.io/argo-helm
+
+
+create namespace
+kubectl create ns argocd
+kubectl create ns cert-manager
+kubectl create ns monitoring
+
+
+helm install
+helm install argo-cd argo/argo-cd -n argocd -f values.yaml
+helm install cert-manager oci://quay.io/jetstack/charts/cert-manager:v1.20.2 -n cert-manager -f values.yaml
+helm install grafana grafana-community/grafana -n monitoring -f values.yaml
+
+debug
+helm template grafana grafana-community/grafana > all.yaml
+helm show values prometheus prometheus-community/prometheus > default-values.yaml

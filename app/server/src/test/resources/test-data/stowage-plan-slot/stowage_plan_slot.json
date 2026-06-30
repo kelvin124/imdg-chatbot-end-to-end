@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "6a1464f80aed2d6afe2ee076"
+  },
+  "planId": "ecc44ca4-1193-4093-92fe-53a2d0ef8729",
+  "position": {
+    "bayIndex": 1,
+    "rowIndex": 4,
+    "tierIndex": 14
+  },
+  "containerSnapshot": {
+    "containerNo": "HUMZ6311429",
+    "weight": 23836.5,
+    "height": 2.89,
+    "length": 20,
+    "portOfLoading": "HAM",
+    "portOfDischarge": "NGB",
+    "isDg": false,
+    "isOog": false,
+    "isHighCube": true,
+    "cargo": "Chemicals"
+  },
+  "allowReefer": false,
+  "operationType": "DS",
+  "createdAt": {
+    "$date": "2026-05-25T15:04:24.167Z"
+  },
+  "lastModifiedAt": {
+    "$date": "2026-05-25T15:04:24.167Z"
+  },
+  "version": {
+    "$numberLong": "0"
+  },
+  "_class": "com.example.demo.entity.stowage.slot.StowagePlanSlot"
+}]

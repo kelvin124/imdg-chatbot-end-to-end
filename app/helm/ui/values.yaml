@@ -1,0 +1,30 @@
+replicaCount: 1
+image:
+  repository: ap-singapore-1.ocir.io/axlrvzrcs8ao/imdg-chatbot-ui
+  tag: ""
+  pullPolicy: IfNotPresent
+imagePullSecrets: []
+serviceAccountName: imdg-chatbot-ui
+service:
+  name: imdg-chatbot-ui-service
+  type: ClusterIP
+  port: 80
+  targetPort: 8501
+configMapName: imdg-chatbot-ui-cm
+configMap: {}
+secretRefName: ""
+resources: {}
+probes:
+  liveness:
+    path: /_stcore/health
+    port: 8501
+    scheme: HTTP
+    timeoutSeconds: 1
+  readiness:
+    path: /_stcore/health
+    port: 8501
+    scheme: HTTP
+    timeoutSeconds: 1
+rbac:
+  roleName: config-reader
+  roleBindingName: config-reader-rb
